@@ -1,0 +1,227 @@
+{
+  "drinks": [{
+    "id": 1,
+    "name": "Jasmine Green Milk Tea",
+    "ingredients": ["jasmine green tea", "milk"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Jasmine tea is flowery",
+    "rating": 4
+  }, {
+    "id": 2,
+    "name": "Genmaicha Milk Tea",
+    "ingredients": ["genmaicha, milk"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Genmaicha is roasted brown rice green tea",
+    "rating": 4.5
+  }, {
+    "id": 3,
+    "name": "Taro Milk Tea",
+    "ingredients": ["taro powder", "milk", "green tea"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Taro is a root vegetable",
+    "rating": 4.5
+  }, {
+    "id": 4,
+    "name": "Red Wow Milk",
+    "ingredients": ["milk"],
+    "toppings": ["tapioca pearls", "azuki beans"],
+    "notes": "azuki beans are red beans",
+    "rating": 3.5
+  }, {
+    "id": 5,
+    "name": "Green Wow Milk",
+    "ingredients": ["milk"],
+    "toppings": ["tapioca pearls", "mung beans"],
+    "notes": "Mung beans are also called green beans in Chinese",
+    "rating": 3
+  }, {
+    "id": 6,
+    "name": "Hokkaido Milk Tea",
+    "ingredients": ["black tea", "milk"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Milk tea from Hokkaido, Japan.  Tastes like french vanilla.",
+    "rating": 5
+  }, {
+    "id": 7,
+    "name": "Passionfruit Green Tea",
+    "ingredients": ["black tea", "passionfruit syrup"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Also tastes good with aloe or jelly as toppings",
+    "rating": 4
+  }, {
+    "id": 8,
+    "name": "Matcha Tea Latte",
+    "ingredients": ["matcha powder", "milk"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Matcha is fancy Japanese green tea",
+    "rating": 4.5
+  }, {
+    "id": 9,
+    "name": "Fire Dragon",
+    "ingredients": ["milk"],
+    "toppings": ["azuki beans", "grass jelly", "tapioca pearls"],
+    "notes": "Similar to Red Wow Milk",
+    "rating": 3.5
+  }, {
+    "id": 10,
+    "name": "Green Wizard",
+    "ingredients": ["Milk"],
+    "toppings": ["Mung beans", "grass jelly", "tapioca pearls"],
+    "notes": "Similar to Green Wow Milk",
+    "rating": 4
+  }, {
+    "id": 11,
+    "name": "O Jazz",
+    "ingredients": ["Jasmine green tea", "Orange syrup", "Honey"],
+    "toppings": [],
+    "notes": "Jasmine tea with a tint of orange flavor.",
+    "rating": 4
+  }, {
+    "id": 12,
+    "name": "Zen's Awakening",
+    "ingredients": ["Coffee"],
+    "toppings": ["Chocolate", "Condensed milk"],
+    "notes": "Really strong coffee and sweer",
+    "rating": 4.5
+  }, {
+    "id": 13,
+    "name": "Wintermelon Milk Tea",
+    "ingredients": ["Wintermelon syrup", "green tea"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Wintermelon is a squash",
+    "rating": 4
+  }, {
+    "id": 14,
+    "name": "Lemon QQ",
+    "ingredients": ["Lemon syrup", "green tea"],
+    "toppings": ["Jelly"],
+    "notes": "Sour",
+    "rating": 3
+  }, {
+    "id": 15,
+    "name": "Chrysanthemum Pu-Erh Tea",
+    "ingredients": ["Black tea", "chrysanthemum tea"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Chrysanthemum tea is made using flower petals, very light",
+    "rating": 2.5
+  }, {
+    "id": 16,
+    "name": "Honey Pomelo Juice",
+    "ingredients": ["Pomelo juice", "honey"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Pomelo is like a giant grapefruit",
+    "rating": 2
+  }, {
+    "id": 17,
+    "name": "Yogurt Grapefruit Juice",
+    "ingredients": ["Yakult", "grapefruit juice"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Yakult is a tart yogurt drink",
+    "rating": 4
+  }, {
+    "id": 18,
+    "name": "Yogurt Green Tea",
+    "ingredients": ["Yakult", "green tea"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Yakult is a tart yogurt drink",
+    "rating": 4.5
+  }, {
+    "id": 19,
+    "name": "Herbal Jelly Wow Milk",
+    "ingredients": ["Milk"],
+    "toppings": ["tapioca pearls", "herbal jelly"],
+    "notes": "Herbal jelly is jelly made of herbs",
+    "rating": 3.5
+  }, {
+    "id": 20,
+    "name": "Longan Red Date Tea",
+    "ingredients": ["Jujube tea", "red date syrup"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Longan is jujube, great for sore throats",
+    "rating": 4.5
+  }, {
+    "id": 21,
+    "name": "Red Guava",
+    "ingredients": ["Red guava syrup", "green tea"],
+    "toppings": ["Jelly", "aloe"],
+    "notes": "Sweet and a little tart",
+    "rating": 1.5
+  }, {
+    "id": 22,
+    "name": "The Hulk",
+    "ingredients": ["Kiwi syrup", "green apple syrup", "lychee syrup"],
+    "toppings": ["aloe"],
+    "notes": "Green like Hulk, but sweeter",
+    "rating": 3.5
+  }, {
+    "id": 23,
+    "name": "Thai Milk Tea",
+    "ingredients": ["Thai tea", "milk"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Orange in color",
+    "rating": 3
+  }, {
+    "id": 24,
+    "name": "Kumquat Juice",
+    "ingredients": ["Kumquat juice"],
+    "toppings": ["tapioca pearls", "aloe", "jelly", "herbal jelly"],
+    "notes": "Kumquats are like tiny oranges",
+    "rating": 4
+  }, {
+    "id": 25,
+    "name": "Bambu",
+    "ingredients": ["Kiwi syrup", "green tea"],
+    "toppings": ["Yogurt pop"],
+    "notes": "Yogurt pop are tapioca pearls that pop and ooze yogurt drink",
+    "rating": 3.5
+  }, {
+    "id": 26,
+    "name": "Teemo",
+    "ingredients": ["Orange syrup", "green tea"],
+    "toppings": ["aloe"],
+    "notes": "Teemo is a super adorable LoL champ",
+    "rating": 3
+  }, {
+    "id": 27,
+    "name": "Yasuo",
+    "ingredients": ["Grapefruit syrup", "green tea"],
+    "toppings": ["Yogurt pop"],
+    "notes": "Yasuo is a pretty cool LoL champ but idk why they decided on grapefruit",
+    "rating": 3.5
+  }, {
+    "id": 28,
+    "name": "Pikachu",
+    "ingredients": ["Lemon syrup", "green tea"],
+    "toppings": ["aloe"],
+    "notes": "Lemon gives a nice shock",
+    "rating": 4
+  }, {
+    "id": 29,
+    "name": "Oriental Beauty",
+    "ingredients": ["Oolong tea"],
+    "toppings": ["Yogurt pop"],
+    "notes": "Oriental Beauty is a type of oolong tea",
+    "rating": 3.5
+  }, {
+    "id": 30,
+    "name": "Matcha Red Bean Smoothie",
+    "ingredients": ["matcha green tea"],
+    "toppings": ["azuki beans"],
+    "notes": "Blended together in a smoothie",
+    "rating": 3
+  }, {
+    "id": 31,
+    "name": "Taro Pudding Milk Tea",
+    "ingredients": ["taro powder", "milk", "black tea"],
+    "toppings": ["pudding"],
+    "notes": "Pudding is more like flan consistency",
+    "rating": 4.5
+  }, {
+    "id": 32,
+    "name": "Chatime Milk Tea",
+    "ingredients": ["black tea", "milk"],
+    "toppings": ["tapioca pearls"],
+    "notes": "Special Chatime black milk tea",
+    "rating": 4.5
+  }]
+}

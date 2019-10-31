@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "builds": [{ "src": "./index.js", "use": "@now/node-server" }],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/api/getFullMenu",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    }
+    ,
+    {
+      "src": "/api/pearls_only",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/api/toppings/:drink_id/add/:topping_name",
+      "dest": "./index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/addBubbleTea",
+      "dest": "./index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/alphabetical",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/alphabetical",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/rating",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/pearls_only",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/nontea",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/random3",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/newdrink",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/newdrink",
+      "dest": "./index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/drink/:drink_id",
+      "dest": "./index.js",
+      "methods": ["GET"]
+    }
+  ]
+}

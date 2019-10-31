@@ -1,0 +1,58 @@
+<div class="home">
+    <div class="form-group searchbar col-sm-4">
+        <h2> Bubble Tea Menu </h2>
+        <input type="text" class="form-control searchform" onkeyup="search()" id="search" placeholder="Search here ...">
+    </div>
+    <div class="title myttl" style="display:none">
+        <h3> 
+            <i class="fas fa-sad-cry"></i> &nbsp; Oops, we didn't find anything! &nbsp;<i class="fas fa-sad-cry"></i>
+        </h3>
+    </div>
+    <div class="card-deck full_menu">
+        {{#each data}}
+            <div class="col-sm-4 singlecard">
+                <div class="card shadow-sm w-100 p-3 mycard">
+                    <div class="card-body">
+                        <div class="cardttl">
+                            <h5 class="card-title">{{name}}</h5>
+                        </div>
+                        <div class=" cardnotes ">
+                            {{notes}}
+                            {{!-- overflow-auto?? --}}
+                        </div>
+                        <a href="/drink/{{id}}" class="btn btn-dark">See Detail >></a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
+
+<script>
+      // load search result while new input
+      function search(){
+        // Declare variables
+        var input, filter, lst, card, a, i, txtValue;
+        input = document.getElementById('search');
+        filter = input.value.toUpperCase();
+        lst = document.querySelector('.card-deck');
+        card = lst.querySelectorAll('.singlecard');
+        count = 0;
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < card.length; i++) {
+            a = card[i].getElementsByTagName("h5")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                count++;
+                card[i].style.display = "";
+            } else {
+                card[i].style.display = "none";
+            }
+        }
+        if(count == 0){
+            document.querySelector('.myttl').style.display="";
+        }else{
+            document.querySelector('.myttl').style.display="none";
+        };
+      }
+</script>

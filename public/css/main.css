@@ -1,0 +1,115 @@
+
+body{
+    background: url(../img/Pale\ Wood.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+}
+
+/* full menu styling */
+.searchbar{
+    width:50vw;
+    align-content: center;
+    text-align: center;
+    margin: 3vw auto;
+}
+.searchbar h2{
+    font-family: 'Baloo', cursive;
+}
+.full_menu{
+    margin: 2vh auto !important;
+    width: 80vw;
+}
+.navbar-brand{
+    font-family: 'Baloo', cursive;
+}
+.navbar-nav > li{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.title{
+    text-align: center;
+    margin-top: 2vw;
+    background-color: rgba(41, 37, 35, 0.199);
+    padding: .8vw 0 .5vw 0;
+}
+
+/* adding drink page form styling */
+.myform{margin: 3vw auto;}
+.myform button{margin-top: 1vw;}
+
+/* card styling */
+.mycard{
+    color: cornsilk;
+    font-size: .8vw;
+    max-height: 10vw;
+    margin: 2vw 2vw 2vw 2vw;
+    background-color: rgba(77, 70, 61, 0.733) !important;
+}
+.mycard a{
+    width: 7vw;
+    height: 2vw;
+    font-size: 0.8vw;
+}
+.ratingcard{
+    color: cornsilk;
+    font-size: .8vw;
+    max-height: 13vw;
+    margin: 1vw 2vw 1vw 2vw;
+    background-color: rgba(77, 70, 61, 0.733) !important;
+}
+
+.cardttl{
+    font-size: 1vw;
+    width:17vw;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* background-color: chartreuse; */
+}
+.cardnotes{
+    height: 2.7vw;
+}
+.myFooter{
+    font-size: 0.7vw;
+    margin: 3vw auto;
+    text-align: center;
+    width: 20vw;
+}
+.cardnotes > .divider{
+   color: rgba(211, 211, 211, 0.479);
+   background-color: transparent;
+}
+
+/* adding outcome page rendering */
+.outcome{
+    width:100%;
+    padding: 3vw 0 0 0;
+    align-content: center;
+}
+.outcome h3{
+    padding-top:2vw;
+}
+.outcome a{
+    margin: 2vw;
+}
+/* single drink page styling */
+.drink_description{
+    font-size: 1vw;
+    margin: 3vw 5vw 3vw 15vw;
+    align-self: center;
+    width: 25vw;
+    display:inline-block;
+}
+.drink_description p{ margin-left: 2vw;}
+.drink_description h4{ margin-left: 1vw;}
+.drink_description ul{ margin-left: 2vw;}
+.drink_img{
+    padding: 1vw .8vw;
+    background-color: rgba(255, 248, 220, 0.281);
+    border-radius: 25%;
+    font-size: 1vw;
+    text-align: center;
+    width: 15vw;
+    float: right;
+    display: inline-block;
+    margin: 3vw 15vw 3vw 5vw;
+}

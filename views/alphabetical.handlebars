@@ -1,0 +1,22 @@
+<div class="title">
+    <h4> Drinks sorted in alphabetical order !</h3>
+</div>
+
+<div class="card-deck full_menu">
+    {{#each data}}
+        <div class="col-sm-4">
+            <div class="card shadow-sm w-100 p-3 mycard">
+            <div class="card-body">
+                <div class="cardttl">
+                    <h5 class="card-title">{{name}}</h5>
+                </div>
+                <div class=" cardnotes ">
+                    {{notes}}
+                    {{!-- overflow-auto?? --}}
+                </div>
+                <a href="/drink/{{id}}" class="btn btn-dark">See Detail >></a>
+            </div>
+            </div>
+        </div>
+    {{/each}}
+</div>

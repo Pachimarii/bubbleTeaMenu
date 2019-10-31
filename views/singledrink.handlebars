@@ -1,0 +1,33 @@
+<div class="full_menu">
+    {{#if drink}}
+        <div class="drink_description">
+            <h1>{{drink.name}}</h1>
+        <p>id: #{{drink.id}},&nbsp;{{drink.notes}}</p>
+        <h4>Ingredients:</h4>
+        <ul>
+            {{#each drink.ingredients}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <h4>Toppings:</h4>
+        <ul>
+            {{#each drink.toppings}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        </div>
+        <div class="drink_img" width="100%">
+            <img src="../public/img/bubble-tea.png">
+            <div> 
+                {{drink.rating}}  &nbsp;
+                {{#each drink.stars}}
+                    <i class="{{this}}"></i>
+                {{/each}}
+            </div>
+            
+        </div>
+    {{else}}
+        <h1>Sorry, this drink is not found!</h1>
+    {{/if}}
+
+</div>

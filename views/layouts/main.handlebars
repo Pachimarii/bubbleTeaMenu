@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/public/css/main.css">
+  <title>Minhui Xie | Midterm Project</title>
+  <link href="https://fonts.googleapis.com/css?family=Gurajada|Baloo|Lobster+Two|Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="https://kit.fontawesome.com/d494f7bb71.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark"  style="background-color: #4d3f39;">
+    <a class="navbar-brand" href="/">
+        <img src="../../public/img/tea.png" width="50" height="50" class="d-inline-block align-center" alt="">
+        Bubble Tea Menu
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleContent" aria-controls="toggleContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="toggleContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/alphabetical">Alphabetical<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/rating">By Rating</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pearls_only">Tapioca Pearls Only</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/nontea">Non Tea Drinks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/random3">Random 3 Drinks</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+      <a class="btn btn-outline-light" href="/newdrink" role="button"><i class="fas fa-plus-square"></i> &nbsp; Add A New Drink &nbsp;</i></a>
+    </form>
+    </div>
+  </nav>
+  {{!-- <button type="button" id="createNew">Enter a Team</button> --}}
+   {{{body}}}
+   <div class="myFooter">
+     <p>This project is created by Minhui Xie</p>
+     Bubble Tea Icon is from Icons made by 
+     <a href="https://www.flaticon.com/authors/mynamepong" title="mynamepong">mynamepong</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a>
+   </div>
+   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<div class="title">
+    <h4> All the drinks that can add tapioca pearl as topping :3 </h3>
+</div>
+
+<div class="card-deck full_menu">
+    {{#each data}}
+        <div class="col-sm-4">
+            <div class="card shadow-sm w-100 p-3 mycard">
+            <div class="card-body">
+                <div class="cardttl">
+                    <h5 class="card-title">{{name}}</h5>
+                </div>
+                <div class=" cardnotes ">
+                    {{#each toppings}}
+                      &nbsp; <span class="divider">|</span> &nbsp; <span>{{this}}</span>
+                    {{/each}}
+                    &nbsp; <span class="divider">|</span>
+                </div>
+                <a href="/drink/{{id}}" class="btn btn-dark">See Detail >></a>
+            </div>
+            </div>
+        </div>
+    {{/each}}
+</div>

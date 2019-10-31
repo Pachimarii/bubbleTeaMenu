@@ -1,0 +1,31 @@
+
+<div class="title">
+    <h4> Bubble tea sorted by rating!</h3>
+    {{!-- <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    <i class="far fa-star"></i> --}}
+</div>
+
+<div class="card-deck full_menu">
+    {{#each data}}
+        <div class="col-sm-4">
+            <div class="card shadow-sm w-100 p-3 ratingcard">
+            <div class="card-body">
+                <div class="cardttl">
+                    <h5 class="card-title">{{name}}</h5>
+                </div>
+                {{rating}}  &nbsp;
+                {{#each stars}}
+                    <i class="{{this}}"></i>
+                {{/each}}
+                
+                <div class=" cardnotes ">
+                    {{notes}}
+                    {{!-- overflow-auto?? --}}
+                </div>
+                <a href="/drink/{{id}}" class="btn btn-dark">See Detail >></a>
+            </div>
+            </div>
+        </div>
+    {{/each}}
+</div>

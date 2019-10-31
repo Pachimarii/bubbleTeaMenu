@@ -1,0 +1,14 @@
+<div class="outcome">
+  {{#if outcome}}
+        <div class="title">
+            <h3> <i class="fas fa-laugh-wink"></i> &nbsp;We have added the drink! &nbsp;<i class="fas fa-laugh-wink"></i><h3>
+            <a class="btn btn-dark btn-lg" href="/newdrink" role="button"> &nbsp; Add Another One!&nbsp;</i></a>
+        </div>  
+    {{else}}
+        <div class="title">
+        <h3><i class="fas fa-sad-cry"></i> &nbsp;Oh no! This bubble tea had duplicate name &nbsp;<i class="fas fa-sad-cry"></i></h3>
+            <a class="btn btn-dark btn-lg" href="/newdrink" role="button"> &nbsp; Try again &nbsp;</i></a>
+        </div>
+    {{/if}}
+</div>
+
